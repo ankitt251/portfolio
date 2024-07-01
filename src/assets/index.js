@@ -22,8 +22,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import bosch from "./company/bosch.png";
-import zensar from "./company/zensar.svg";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
@@ -57,8 +55,6 @@ export {
   meta,
   shopify,
   starbucks,
-  bosch,
-  zensar,
   tesla,
   carrent,
   jobit,

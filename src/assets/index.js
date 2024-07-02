@@ -25,8 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bosch from "./company/bosch.png";
+import zensar from "./company/zensar.webp";
+import sparkfound from "./company/sparkfound.png";
 
 import carrent from "./carrent.png";
+import realestate from "./realestate.png";
+import qtrip from "./qtrip.png";
+import paymentgate from "./paymentgate.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -55,8 +61,14 @@ export {
   meta,
   shopify,
   starbucks,
+  bosch,
+  zensar,
+  sparkfound,
   tesla,
   carrent,
+  realestate,
+  paymentgate,
+  qtrip,
   jobit,
   tripguide,
 };

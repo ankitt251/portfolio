@@ -17,12 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  bosch,
+  zensar,
   tesla,
   shopify,
   carrent,
+  realestate,
+  paymentgate,
+  qtrip,
   jobit,
   tripguide,
   threejs,
+  sparkfound,
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +48,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FrontEnd Developer",
     icon: web,
   },
   {
@@ -50,11 +56,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MERN Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Volleyball Player",
     icon: creator,
   },
 ];
@@ -116,91 +122,91 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Project Trainee",
+    company_name: "Bosch Ltd.",
+    icon: bosch,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2023 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed PLC (Programmable Logic Controller) programs for a brushing unit, focusing on automation and efficiency improvements in industrial processes.",
+      "Collaborated with a multidisciplinary team to understand project requirements and translate them into functional PLC programs.",
+      "Conducted testing and troubleshooting of PLC programs to validate functionality and resolve issues promptly.",
+      "Integrated sensors and actuators into the PLC system to monitor and control brushing parameters effectively.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Trainee",
+    company_name: "Zensar Technologies",
+    icon: zensar,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2022 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Selected as one of 95 trainees out of 295 students across all branches, demonstrating academic excellence and technical aptitude.",
+      "Completed rigorous training in SQL, PL/SQL, and Java, gaining proficiency in database management and object-oriented programming.",
+      "Collaborated with mentors and peers to complete projects and assignments, applying theoretical knowledge to practical scenarios.",
+      "Received commendations for dedication, problem-solving abilities, and contributions to team projects during the training period.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer Intern",
+    company_name: "The Sparks Foundation",
+    icon: sparkfound,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designed and implemented payment gateway integration for web applications, ensuring secure and seamless online transactions.",
+      "Collaborated with a team of developers and designers to integrate payment solutions into existing web applications.",
+      "Participated in team meetings and discussions to brainstorm ideas and strategies for enhancing user experience and application performance.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I actively participate in volleyball and had the honor of captaining the team during the 2023-24 season. We achieved notable success, winning the KPL 23 championship and securing the runner-up position in the state-level KSF tournament. These experiences have not only honed my leadership skills but also taught me the importance of teamwork and perseverance.",
+    name: "Team Captain",
+    designation: "Team Lead",
+    company: "KKWIEER",
+    image: "/src/assets/testimonials/volleyball.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "As Coding Competition Head at Telekinesis 2023, I organized and led a successful coding competition that attracted participants from diverse backgrounds. Responsibilities included designing competition frameworks, coordinating logistics, and ensuring smooth execution. I fostered a competitive yet collaborative atmosphere, promoting skill development and community engagement in the tech community.",
+    name: "Coding Competition Head",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Telekinesis",
+    image: "/src/assets/testimonials/paint.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I am passionate about playing guitar, painting, and sketches, actively participating in events. In 2024, I was honored to win the ETPL Cricket Competition with Most Runs.!",
+    name: "Participant",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "KKWIEER",
+    image: "/src/assets/testimonials/participate.png",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real Estate Hub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "•	Designed and deployed a comprehensive Full Stack web platform on Render, allowing users to seamlessly buy, sell, and rent properties with detailed listings, images, and contact information.",
     tags: [
       {
         name: "react",
@@ -211,45 +217,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mern",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: realestate,
+    source_code_link: "https://github.com/ankitt251/mern-estate.git",
   },
   {
-    name: "Job IT",
+    name: "Payment Gateway Form",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Designed and implemented payment gateway integration for web applications, ensuring secure and seamless online transactions.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: paymentgate,
+    source_code_link: "https://github.com/ankitt251/PaymentGateway.git",
   },
   {
-    name: "Trip Guide",
+    name: "Q Trip Guide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed and implemented an interactive, responsive and user friendly interface using HTML, CSS, and JavaScript, providing seamless navigation across various travel destinations. ",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +263,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: qtrip,
+    source_code_link: "https://timely-granita-cf73f1.netlify.app/",
   },
 ];
 

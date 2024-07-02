@@ -1,5 +1,5 @@
-import { BrowserRouter, Router } from "react-router-dom";
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React from "react";
 import {
   About,
   Contact,
@@ -15,23 +15,23 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <Router>
-        <div className="relative z-0 bg-primary">
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-            <Navbar />
-            <Hero />
-          </div>
-          <About />
-          <Experience />
-          <Tech />
-          <Works />
-          <Feedbacks />
-          <div className="relative z-0">
-            <Contact />
-            <StarsCanvas />
-          </div>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
         </div>
-      </Router>
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route path="/experience" component={Experience} />
+          <Route path="/tech" component={Tech} />
+          <Route path="/works" component={Works} />
+          <Route path="/feedbacks" component={Feedbacks} />
+        </Switch>
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
+      </div>
     </BrowserRouter>
   );
 };

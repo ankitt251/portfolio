@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite",
-    "serve": "npx serve -s build",
+    "serve": "serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -23,7 +23,6 @@
     "react-router-dom": "^6.8.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "serve": "^14.2.3",
     "three": "^0.166.0"
   },
   "devDependencies": {
@@ -32,6 +31,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
+    "serve": "^14.2.3",
     "tailwindcss": "^3.2.6",
     "vite": "^5.3.2"
   }

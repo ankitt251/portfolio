@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  insomnia,
   meta,
   starbucks,
   bosch,
@@ -60,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Volleyball Player",
+    title: "Backend Developer",
     icon: creator,
   },
 ];
@@ -115,8 +116,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "insomnia",
+    icon: insomnia,
   },
 ];
 
@@ -194,7 +195,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I am passionate about playing guitar, painting, and sketches, actively participating in events. In 2024, I was honored to win the ETPL Cricket Competition with Most Runs.!",
+      "I am passionate about playing guitar, painting, and sketches, actively participating in events. In 2024, I was honored to win the ETPL Cricket Competition with Most Runs in Tournament.!",
     name: "Participant",
     designation: "CTO",
     company: "KKWIEER",
